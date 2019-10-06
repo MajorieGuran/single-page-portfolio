@@ -5,7 +5,7 @@ function appendMailTo(){
     console.log(message);
 
     let mialToAttr = document.getElementById("sendMail");
-    mailToAttr.setAttribute("href", "mailto:zollandreaguran43@gmail.com?subject="+subject+"&body="+message);
+    mailToAttr.setAttribute("href", "mailTo:zollandreaguran43@gmail.com?subject="+subject+"&body="+message);
 
 }
 
